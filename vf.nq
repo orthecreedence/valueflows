@@ -340,9 +340,6 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#image> <http://www.w3.org/2000/01/rdf-schema#label> "image" .
 <https://w3id.org/valueflows#image> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#improve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#improve> <http://www.w3.org/2000/01/rdf-schema#label> "improve" .
-<https://w3id.org/valueflows#improve> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#inScopeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#inScopeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Grouping around something to create a boundary or context, used for documenting, accounting, planning." .
 <https://w3id.org/valueflows#inScopeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
@@ -377,6 +374,9 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#mappableAddress> <http://www.w3.org/2000/01/rdf-schema#label> "mappable address" .
 <https://w3id.org/valueflows#mappableAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/valueflows#mappableAddress> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#modify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#label> "modify" .
+<https://w3id.org/valueflows#modify> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#name> <http://www.w3.org/2000/01/rdf-schema#comment> "An informal or formal textual identifier for an object. Does not imply uniqueness." .
 <https://w3id.org/valueflows#name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
@@ -489,6 +489,9 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#satisfies> <http://www.w3.org/2000/01/rdf-schema#label> "satisfies" .
 <https://w3id.org/valueflows#satisfies> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Intent> .
 <https://w3id.org/valueflows#satisfies> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#service> <http://www.w3.org/2000/01/rdf-schema#label> "service" .
+<https://w3id.org/valueflows#service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#settledBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#settledBy> <http://www.w3.org/2000/01/rdf-schema#comment> "References an economic event that fully or partially settles the claim." .
 <https://w3id.org/valueflows#settledBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Settlement> .
