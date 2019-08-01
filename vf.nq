@@ -365,6 +365,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#load> <http://www.w3.org/2000/01/rdf-schema#label> "load" .
 <https://w3id.org/valueflows#load> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#decrement> .
 <https://w3id.org/valueflows#load> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#lot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#comment> "Lot or batch of an economic resource, used to track forward or backwards to all occurrences of resources of that lot." .
+<https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
+<https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#label> "lot" .
+<https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.virtual-assembly.org/DataFoodConsortium/FullModel#ProductBatch> .
+<https://w3id.org/valueflows#lot> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#lower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#lower> <http://www.w3.org/2000/01/rdf-schema#label> "lower" .
 <https://w3id.org/valueflows#lower> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#decrement> .
@@ -523,9 +529,10 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#substitutable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/valueflows#substitutable> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Sometimes called lot number, used for trackable batched resources. Sometimes called serial number, used when each item must have a trackable identifier (like a computer). Could also be used for other unique tracking identifiers needed for resources." .
+<https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Sometimes called serial number, used when each item must have a trackable identifier (like a computer). Could also be used for other unique tracking identifiers needed for resources." .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "tracking identifier" .
+<https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#triggeredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#triggeredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "References an economic event that implied the claim, often based on a prior agreement." .
