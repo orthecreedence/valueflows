@@ -116,8 +116,13 @@ _:b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/value
 _:b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b68 .
 _:b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Claim> .
 _:b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:b69 <http://www.w3.org/2002/07/owl#unionOf> _:b70 .
 _:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicEvent> .
 _:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b8 .
+_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#ResourceSpecification> .
+_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b71 .
+_:b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2002/07/owl#Thing> .
+_:b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Commitment> .
 _:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b9 .
 _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Intent> .
@@ -245,7 +250,7 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#claimedQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
 <https://w3id.org/valueflows#claimedQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#classifiedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#classifiedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "References a concept in a common taxonomy or other classification scheme for purposes of categorization." .
+<https://w3id.org/valueflows#classifiedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "References a concept in a common taxonomy or other classification scheme for purposes of categorization or grouping." .
 <https://w3id.org/valueflows#classifiedAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
 <https://w3id.org/valueflows#classifiedAs> <http://www.w3.org/2000/01/rdf-schema#label> "classified as" .
 <https://w3id.org/valueflows#classifiedAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
@@ -407,7 +412,7 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#primaryLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 <https://w3id.org/valueflows#primaryLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "References a concept in a common taxonomy or other classification scheme for purposes of categorization." .
+<https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "References a concept in a common taxonomy or other classification scheme for purposes of categorization or grouping." .
 <https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeProcess> .
 <https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#label> "process classified as" .
 <https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
@@ -460,16 +465,16 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#relationship> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#AgentRelationshipRole> .
 <https://w3id.org/valueflows#relationship> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#resourceClassifiedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#resourceClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "References a concept in a common taxonomy or other classification scheme for purposes of categorization." .
+<https://w3id.org/valueflows#resourceClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "References a concept in a common taxonomy or other classification scheme for purposes of categorization or grouping." .
 <https://w3id.org/valueflows#resourceClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#domain> _:b55 .
 <https://w3id.org/valueflows#resourceClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#label> "resource classified as" .
 <https://w3id.org/valueflows#resourceClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
 <https://w3id.org/valueflows#resourceClassifiedAs> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The primary resource knowledge specification or definition of an existing or potential resource." .
+<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The primary resource specification or definition of an existing or potential economic resource. A resource will have only one, as this specifies exactly what the resource is. If not a vf:ResourceSpecification, this can be a link to another specification." .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#domain> _:b62 .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "resource conforms to" .
-<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ResourceSpecification> .
+<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> _:b69 .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#resourceInventoriedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#resourceInventoriedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Economic resource involved in the flow." .
