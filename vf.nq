@@ -90,7 +90,7 @@ _:b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b54 .
 _:b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Claim> .
 _:b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:b55 <http://www.w3.org/2002/07/owl#unionOf> _:b56 .
-_:b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#ResourceSpecification> .
+_:b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#RecipeResource> .
 _:b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b57 .
 _:b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Intent> .
 _:b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b58 .
@@ -106,23 +106,21 @@ _:b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 _:b62 <http://www.w3.org/2002/07/owl#unionOf> _:b63 .
 _:b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Commitment> .
 _:b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b64 .
-_:b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicResource> .
+_:b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Intent> .
 _:b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b65 .
-_:b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Intent> .
+_:b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicEvent> .
 _:b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b66 .
-_:b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#RecipeFlow> .
+_:b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Claim> .
 _:b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b67 .
-_:b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicEvent> .
-_:b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b68 .
-_:b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Claim> .
-_:b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:b69 <http://www.w3.org/2002/07/owl#unionOf> _:b70 .
+_:b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#RecipeResource> .
+_:b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:b68 <http://www.w3.org/2002/07/owl#unionOf> _:b69 .
+_:b69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#ResourceSpecification> .
+_:b69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b70 .
 _:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicEvent> .
 _:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b8 .
-_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#ResourceSpecification> .
-_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b71 .
-_:b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2002/07/owl#Thing> .
-_:b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2002/07/owl#Thing> .
+_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Commitment> .
 _:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b9 .
 _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Intent> .
@@ -177,6 +175,10 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity that changes inputs into outputs.  It could transform or transport economic resource(s)." .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Process" .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the kind of process." .
+<https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ProcessSpecification" .
+<https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "The linkage between a process recipe, an action that structures a recipe, and a resource specification." .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeFlow" .
@@ -185,6 +187,10 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the process part of a recipe for use in planning from recipe." .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeProcess" .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#RecipeResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#RecipeResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the resource as part of a recipe, for use in planning from recipe." .
+<https://w3id.org/valueflows#RecipeResource> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeResource" .
+<https://w3id.org/valueflows#RecipeResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification of a kind of resource. Could define a material item, service, digital item, currency account, etc." .
 <https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ResourceSpecification" .
@@ -235,10 +241,10 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#atLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 <https://w3id.org/valueflows#atLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The recipe definition or specification for a process." .
+<https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The recipe definition or standard specification for a process." .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Process> .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#label> "based on" .
-<https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#RecipeProcess> .
+<https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ProcessSpecification> .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/2000/01/rdf-schema#label> "cite" .
@@ -267,6 +273,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#committedQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "committed quantity" .
 <https://w3id.org/valueflows#committedQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
 <https://w3id.org/valueflows#committedQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#conformsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#conformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The primary resource knowledge specification or definition of an existing or potential resource." .
+<https://w3id.org/valueflows#conformsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
+<https://w3id.org/valueflows#conformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "conforms to" .
+<https://w3id.org/valueflows#conformsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ResourceSpecification> .
+<https://w3id.org/valueflows#conformsTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#label> "consume" .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#decrement> .
@@ -292,6 +304,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#decrement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#decrement> <http://www.w3.org/2000/01/rdf-schema#label> "decrement" .
 <https://w3id.org/valueflows#decrement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit expected for this resource specification as a default." .
+<https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#ResourceSpecification> .
+<https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2000/01/rdf-schema#label> "default unit" .
+<https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/unit> .
+<https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#definedQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#definedQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount and unit defined for this recipe flow." .
 <https://w3id.org/valueflows#definedQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeFlow> .
@@ -417,6 +435,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#label> "process classified as" .
 <https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
 <https://w3id.org/valueflows#processClassifiedAs> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The standard specification or definition of a process." .
+<https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeProcess> .
+<https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "process conforms to" .
+<https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ProcessSpecification> .
+<https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#label> "produce" .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
@@ -446,6 +470,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#receiver> <http://www.w3.org/2000/01/rdf-schema#label> "receiver" .
 <https://w3id.org/valueflows#receiver> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/#Agent> .
 <https://w3id.org/valueflows#receiver> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#recipeFlowResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#recipeFlowResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource definition referenced by this flow in the recipe." .
+<https://w3id.org/valueflows#recipeFlowResource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeFlow> .
+<https://w3id.org/valueflows#recipeFlowResource> <http://www.w3.org/2000/01/rdf-schema#label> "recipe flow resource" .
+<https://w3id.org/valueflows#recipeFlowResource> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#RecipeResource> .
+<https://w3id.org/valueflows#recipeFlowResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#recipeInputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#recipeInputOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an input flow to it's node in a recipe." .
 <https://w3id.org/valueflows#recipeInputOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeFlow> .
@@ -474,7 +504,7 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The primary resource specification or definition of an existing or potential economic resource. A resource will have only one, as this specifies exactly what the resource is. If not a vf:ResourceSpecification, this can be a link to another specification." .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#domain> _:b62 .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "resource conforms to" .
-<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> _:b69 .
+<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> _:b68 .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#resourceInventoriedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#resourceInventoriedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Economic resource involved in the flow." .
@@ -558,8 +588,8 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#underlyingResource> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#EconomicResource> .
 <https://w3id.org/valueflows#underlyingResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit expected for this resource specification as a default." .
-<https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#ResourceSpecification> .
+<https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit used for this resource in the recipe." .
+<https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeResource> .
 <https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit" .
 <https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/unit> .
 <https://w3id.org/valueflows#unit> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
