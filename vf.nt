@@ -183,6 +183,10 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2000/01/rdf-schema#comment> "A planned economic flow, which can lead to economic events (sometimes through commitments)" .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Intent" .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#Plan> <http://www.w3.org/2000/01/rdf-schema#comment> "A logical collection of processes that constitute a body of scheduled work with defined deliverable(s)." .
+<https://w3id.org/valueflows#Plan> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Plan" .
+<https://w3id.org/valueflows#Plan> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity that changes inputs into outputs.  It could transform or transport economic resource(s)." .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Process" .
@@ -211,6 +215,14 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#Satisfaction> <http://www.w3.org/2000/01/rdf-schema#comment> "A commitment or economic event that partially or fully satisfies one or more intents." .
 <https://w3id.org/valueflows#Satisfaction> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Satisfaction" .
 <https://w3id.org/valueflows#Satisfaction> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#Scenario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#Scenario> <http://www.w3.org/2000/01/rdf-schema#comment> "An estimated or analytical logical collection of higher level processes used for budgeting, analysis, plan refinement, etc." .
+<https://w3id.org/valueflows#Scenario> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Scenario" .
+<https://w3id.org/valueflows#Scenario> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#ScenarioDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#ScenarioDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "The type definition of one or more scenarios." .
+<https://w3id.org/valueflows#ScenarioDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ScenarioDefinition" .
+<https://w3id.org/valueflows#ScenarioDefinition> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#Settlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Settlement> <http://www.w3.org/2000/01/rdf-schema#comment> "The quantity that the economic event settled of the claim." .
 <https://w3id.org/valueflows#Settlement> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Settlement" .
@@ -306,6 +318,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2000/01/rdf-schema#label> "default unit" .
 <https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/unit> .
 <https://w3id.org/valueflows#defaultUnit> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#definedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#definedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "The scenario definition for this scenario, for example yearly budget." .
+<https://w3id.org/valueflows#definedAs> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Scenario> .
+<https://w3id.org/valueflows#definedAs> <http://www.w3.org/2000/01/rdf-schema#label> "defined as" .
+<https://w3id.org/valueflows#definedAs> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ScenarioDefinition> .
+<https://w3id.org/valueflows#definedAs> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#definedQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#definedQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount and unit defined for this recipe flow." .
 <https://w3id.org/valueflows#definedQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeFlow> .
@@ -374,6 +392,11 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#increment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#increment> <http://www.w3.org/2000/01/rdf-schema#label> "increment" .
 <https://w3id.org/valueflows#increment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#independentDemandOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#independentDemandOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a desired deliverable to the outside of this plan." .
+<https://w3id.org/valueflows#independentDemandOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Commitment> .
+<https://w3id.org/valueflows#independentDemandOf> <http://www.w3.org/2000/01/rdf-schema#label> "independent demand of" .
+<https://w3id.org/valueflows#independentDemandOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Plan> .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an input flow to it's node." .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:b6 .
@@ -422,6 +445,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#outputOf> <http://www.w3.org/2000/01/rdf-schema#label> "output of" .
 <https://w3id.org/valueflows#outputOf> <http://www.w3.org/2000/01/rdf-schema#range> _:b17 .
 <https://w3id.org/valueflows#outputOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#OBjectProperty> .
+<https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/2000/01/rdf-schema#comment> "The process with its inputs and outputs is part of the plan." .
+<https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Process> .
+<https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/2000/01/rdf-schema#label> "planned within" .
+<https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Plan> .
+<https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#primaryLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#primaryLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The main place an agent is located, often an address where activities occur and mail can be sent. This is usually a mappable geographic location.  It also could be a website address, as in the case of agents who have no physical location." .
 <https://w3id.org/valueflows#primaryLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/#Agent> .
@@ -487,6 +516,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#recipeOutputOf> <http://www.w3.org/2000/01/rdf-schema#label> "recipe output of" .
 <https://w3id.org/valueflows#recipeOutputOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#RecipeProcess> .
 <https://w3id.org/valueflows#recipeOutputOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This scenario refines another scenario, often as time moves closer or for more detail." .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Scenario> .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#label> "refinement of" .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Scenario> .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#relationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#relationship> <http://www.w3.org/2000/01/rdf-schema#comment> "A kind of relationship that exists between 2 agents." .
 <https://w3id.org/valueflows#relationship> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#AgentRelationship> .
@@ -529,6 +564,11 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#satisfies> <http://www.w3.org/2000/01/rdf-schema#label> "satisfies" .
 <https://w3id.org/valueflows#satisfies> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Intent> .
 <https://w3id.org/valueflows#satisfies> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#scheduled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#scheduled> <http://www.w3.org/2000/01/rdf-schema#comment> "The plan is scheduled, or is a higher level estimated plan." .
+<https://w3id.org/valueflows#scheduled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Plan> .
+<https://w3id.org/valueflows#scheduled> <http://www.w3.org/2000/01/rdf-schema#label> "scheduled" .
+<https://w3id.org/valueflows#scheduled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <https://w3id.org/valueflows#service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#service> <http://www.w3.org/2000/01/rdf-schema#label> "service" .
 <https://w3id.org/valueflows#service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
