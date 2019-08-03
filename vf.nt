@@ -180,7 +180,7 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#Fulfillment> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Fulfillment" .
 <https://w3id.org/valueflows#Fulfillment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/valueflows#Intent> <http://www.w3.org/2000/01/rdf-schema#comment> "A planned economic flow, which can lead to economic events (sometimes through commitments)" .
+<https://w3id.org/valueflows#Intent> <http://www.w3.org/2000/01/rdf-schema#comment> "A proposed or planned or estimated economic flow, prior to a commitment or agreement, which can lead to commitments and/or economic events." .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Intent" .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -195,6 +195,18 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the kind of process." .
 <https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ProcessSpecification" .
 <https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#Proposal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#Proposal> <http://www.w3.org/2000/01/rdf-schema#comment> "Published requests or offers, sometimes with what is expected in return." .
+<https://w3id.org/valueflows#Proposal> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Proposal" .
+<https://w3id.org/valueflows#Proposal> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#ProposedIntent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#ProposedIntent> <http://www.w3.org/2000/01/rdf-schema#comment> "Supports including intents in multiple proposals, as well as a proposal including multiple intents." .
+<https://w3id.org/valueflows#ProposedIntent> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ProposedIntent" .
+<https://w3id.org/valueflows#ProposedIntent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#ProposedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#ProposedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent to which the proposal is to be published." .
+<https://w3id.org/valueflows#ProposedTo> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ProposedTo" .
+<https://w3id.org/valueflows#ProposedTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "The linkage between a process recipe, an action that structures a recipe, and a resource specification." .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeFlow" .
@@ -254,6 +266,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#atLocation> <http://www.w3.org/2000/01/rdf-schema#label> "at location" .
 <https://w3id.org/valueflows#atLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 <https://w3id.org/valueflows#atLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The quantity of the offered or requested resource currently available." .
+<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Intent> .
+<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "available quantity" .
+<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The recipe definition or standard specification for a process." .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Process> .
@@ -336,6 +354,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#durationMultiplier> <http://www.w3.org/2000/01/rdf-schema#label> "duration multiplier" .
 <https://w3id.org/valueflows#durationMultiplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <https://w3id.org/valueflows#durationMultiplier> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Location or area where the proposal is valid." .
+<https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Proposal> .
+<https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#label> "eligible location" .
+<https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#finished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#finished> <http://www.w3.org/2000/01/rdf-schema#comment> "The commitment or intent or process is complete or not." .
 <https://w3id.org/valueflows#finished> <http://www.w3.org/2000/01/rdf-schema#domain> _:b57 .
@@ -473,12 +497,36 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#label> "produce" .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#proposed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#proposed> <http://www.w3.org/2000/01/rdf-schema#comment> "The proposal that is published to a specific agent." .
+<https://w3id.org/valueflows#proposed> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#ProposedTo> .
+<https://w3id.org/valueflows#proposed> <http://www.w3.org/2000/01/rdf-schema#label> "proposed" .
+<https://w3id.org/valueflows#proposed> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Proposal> .
+<https://w3id.org/valueflows#proposed> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#proposedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#proposedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The agent to which the proposal is published." .
+<https://w3id.org/valueflows#proposedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#ProposedTo> .
+<https://w3id.org/valueflows#proposedTo> <http://www.w3.org/2000/01/rdf-schema#label> "proposed" .
+<https://w3id.org/valueflows#proposedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/#Agent> .
+<https://w3id.org/valueflows#proposedTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#provider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#provider> <http://www.w3.org/2000/01/rdf-schema#comment> "The economic agent from whom the intended, committed, or actual economic event is initiated." .
 <https://w3id.org/valueflows#provider> <http://www.w3.org/2000/01/rdf-schema#domain> _:b24 .
 <https://w3id.org/valueflows#provider> <http://www.w3.org/2000/01/rdf-schema#label> "provider" .
 <https://w3id.org/valueflows#provider> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/#Agent> .
 <https://w3id.org/valueflows#provider> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#publishedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#publishedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The published proposal which this intent is part of." .
+<https://w3id.org/valueflows#publishedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#ProposedIntent> .
+<https://w3id.org/valueflows#publishedIn> <http://www.w3.org/2000/01/rdf-schema#label> "published in" .
+<https://w3id.org/valueflows#publishedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Proposal> .
+<https://w3id.org/valueflows#publishedIn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#publishes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#publishes> <http://www.w3.org/2000/01/rdf-schema#comment> "The intent which is part of this published proposal." .
+<https://w3id.org/valueflows#publishes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#ProposedIntent> .
+<https://w3id.org/valueflows#publishes> <http://www.w3.org/2000/01/rdf-schema#label> "publishes" .
+<https://w3id.org/valueflows#publishes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Intent> .
+<https://w3id.org/valueflows#publishes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#raise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#raise> <http://www.w3.org/2000/01/rdf-schema#label> "raise" .
 <https://w3id.org/valueflows#raise> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
@@ -516,6 +564,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#recipeOutputOf> <http://www.w3.org/2000/01/rdf-schema#label> "recipe output of" .
 <https://w3id.org/valueflows#recipeOutputOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#RecipeProcess> .
 <https://w3id.org/valueflows#recipeOutputOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#reciprocal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#reciprocal> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a reciprocal intent of this proposal, not primary. Not meant to be part of intent matching." .
+<https://w3id.org/valueflows#reciprocal> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#ProposedIntent> .
+<https://w3id.org/valueflows#reciprocal> <http://www.w3.org/2000/01/rdf-schema#label> "reciprocal" .
+<https://w3id.org/valueflows#reciprocal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/valueflows#reciprocal> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This scenario refines another scenario, often as time moves closer or for more detail." .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Scenario> .
@@ -641,6 +695,12 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#label> "unit" .
 <https://w3id.org/valueflows#unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/unit> .
 <https://w3id.org/valueflows#unit> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#unitQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/valueflows#unitQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The base quantity of the offer or request, which can be multipied to create a commitment; commonly seen in a price list or e-commerce." .
+<https://w3id.org/valueflows#unitQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Intent> .
+<https://w3id.org/valueflows#unitQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "unit quantity" .
+<https://w3id.org/valueflows#unitQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/valueflows#unitQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#unload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#unload> <http://www.w3.org/2000/01/rdf-schema#label> "unload" .
 <https://w3id.org/valueflows#unload> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
