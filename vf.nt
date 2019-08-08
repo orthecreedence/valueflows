@@ -119,15 +119,10 @@ _:b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 _:b69 <http://www.w3.org/2002/07/owl#unionOf> _:b70 .
 _:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicEvent> .
 _:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b8 .
-_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#ResourceSpecification> .
+_:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Scenario> .
 _:b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b71 .
-_:b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2002/07/owl#Thing> .
+_:b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Plan> .
 _:b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:b72 <http://www.w3.org/2002/07/owl#unionOf> _:b73 .
-_:b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Scenario> .
-_:b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b74 .
-_:b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Plan> .
-_:b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Commitment> .
 _:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b9 .
 _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Intent> .
@@ -573,7 +568,7 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#reciprocal> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This scenario or plan refines another scenario, often as time moves closer or for more detail." .
-<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:b72 .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:b69 .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#label> "refinement of" .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Scenario> .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
@@ -593,7 +588,7 @@ _:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/0
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The primary resource specification or definition of an existing or potential economic resource. A resource will have only one, as this specifies exactly what the resource is. If not a vf:ResourceSpecification, this can be a link to another specification." .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#domain> _:b63 .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "resource conforms to" .
-<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> _:b69 .
+<https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ResourceSpecification> .
 <https://w3id.org/valueflows#resourceConformsTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#resourceInventoriedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#resourceInventoriedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Economic resource involved in the flow." .
