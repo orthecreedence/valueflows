@@ -379,6 +379,9 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#definedAs> <http://www.w3.org/2000/01/rdf-schema#label> "defined as" .
 <https://w3id.org/valueflows#definedAs> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ScenarioDefinition> .
 <https://w3id.org/valueflows#definedAs> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#dropoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#dropoff> <http://www.w3.org/2000/01/rdf-schema#label> "dropoff" .
+<https://w3id.org/valueflows#dropoff> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#durationMultiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#durationMultiplier> <http://www.w3.org/2000/01/rdf-schema#comment> "The multiplier for duration based on capacities for the recipe." .
 <https://w3id.org/valueflows#durationMultiplier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeProcess> .
@@ -418,10 +421,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#fulfills> <http://www.w3.org/2000/01/rdf-schema#label> "fulfills" .
 <https://w3id.org/valueflows#fulfills> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Commitment> .
 <https://w3id.org/valueflows#fulfills> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#give> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#give> <http://www.w3.org/2000/01/rdf-schema#label> "give" .
-<https://w3id.org/valueflows#give> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#decrement> .
-<https://w3id.org/valueflows#give> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#hasBeginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#comment> "Specific time marking the exact beginning of flow or process" .
 <https://w3id.org/valueflows#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/time#TemporalEntity> .
@@ -455,10 +454,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2000/01/rdf-schema#label> "input of" .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Process> .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#load> <http://www.w3.org/2000/01/rdf-schema#label> "load" .
-<https://w3id.org/valueflows#load> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#decrement> .
-<https://w3id.org/valueflows#load> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#lot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#comment> "Lot or batch of an economic resource, used to track forward or backwards to all occurrences of resources of that lot." .
 <https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
@@ -506,6 +501,9 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#pass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#pass> <http://www.w3.org/2000/01/rdf-schema#label> "pass" .
 <https://w3id.org/valueflows#pass> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#pickup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#pickup> <http://www.w3.org/2000/01/rdf-schema#label> "pickup" .
+<https://w3id.org/valueflows#pickup> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#OBjectProperty> .
 <https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/2000/01/rdf-schema#comment> "The process with its inputs and outputs is part of the plan." .
 <https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Process> .
@@ -573,10 +571,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#realizationOf> <http://www.w3.org/2000/01/rdf-schema#label> "realization of" .
 <https://w3id.org/valueflows#realizationOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Agreement> .
 <https://w3id.org/valueflows#realizationOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#receive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#receive> <http://www.w3.org/2000/01/rdf-schema#label> "receive" .
-<https://w3id.org/valueflows#receive> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
-<https://w3id.org/valueflows#receive> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#receiver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#receiver> <http://www.w3.org/2000/01/rdf-schema#comment> "The economic agent whom the intended, committed, or actual economic event is for." .
 <https://w3id.org/valueflows#receiver> <http://www.w3.org/2000/01/rdf-schema#domain> _:b23 .
@@ -739,10 +733,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2000/01/rdf-schema#label> "unit of resource" .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/unit> .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#unload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#unload> <http://www.w3.org/2000/01/rdf-schema#label> "unload" .
-<https://w3id.org/valueflows#unload> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
-<https://w3id.org/valueflows#unload> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#uri> <http://www.w3.org/2000/01/rdf-schema#label> "uri" .
 <https://w3id.org/valueflows#uri> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
