@@ -281,7 +281,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#Settlement> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Settlement" .
 <https://w3id.org/valueflows#Settlement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#accept> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#accept> <http://www.w3.org/2000/01/rdf-schema#comment> "In processes like repair or modification or testing, the same resource will appear in the output." .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/2000/01/rdf-schema#label> "accept" .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#accountingQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -333,7 +333,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ProcessSpecification> .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#cite> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#cite> <http://www.w3.org/2000/01/rdf-schema#comment> "For example a design file, neither used nor consumed, the file remains available at all times." .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/2000/01/rdf-schema#label> "cite" .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#classifiedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -355,7 +355,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#conformsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ResourceSpecification> .
 <https://w3id.org/valueflows#conformsTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#comment> "For example an ingredient or component composed into the output, after the process the ingredient is gone." .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#label> "consume" .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#decrement> .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
@@ -372,7 +372,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#currentLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 <https://w3id.org/valueflows#currentLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#decrement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#decrement> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#decrement> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent property for all actions that can decrement a resource." .
 <https://w3id.org/valueflows#decrement> <http://www.w3.org/2000/01/rdf-schema#label> "decrement" .
 <https://w3id.org/valueflows#decrement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#definedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -382,11 +382,11 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#definedAs> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ScenarioDefinition> .
 <https://w3id.org/valueflows#definedAs> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#deliver-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#deliver-service> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#deliver-service> <http://www.w3.org/2000/01/rdf-schema#comment> "New service produced and delivered (a service implies that an agent actively receives the service)." .
 <https://w3id.org/valueflows#deliver-service> <http://www.w3.org/2000/01/rdf-schema#label> "deliver-service" .
 <https://w3id.org/valueflows#deliver-service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#dropoff> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#dropoff> <http://www.w3.org/2000/01/rdf-schema#comment> "Transported resource or person leaves the process; the same resource or person appeared in the input." .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/2000/01/rdf-schema#label> "dropoff" .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#effortQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -402,7 +402,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 <https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#fail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#fail> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#fail> <http://www.w3.org/2000/01/rdf-schema#comment> "Possible output of a testing or reviewing process, indicating the resource failed, the same resource will appear in the input." .
 <https://w3id.org/valueflows#fail> <http://www.w3.org/2000/01/rdf-schema#label> "fail" .
 <https://w3id.org/valueflows#fail> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#finished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -446,7 +446,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#inScopeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
 <https://w3id.org/valueflows#inScopeOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#increment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#increment> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#increment> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent property for all actions that can increment a resource." .
 <https://w3id.org/valueflows#increment> <http://www.w3.org/2000/01/rdf-schema#label> "increment" .
 <https://w3id.org/valueflows#increment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#independentDemandOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -468,7 +468,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.virtual-assembly.org/DataFoodConsortium/FullModel#ProductBatch> .
 <https://w3id.org/valueflows#lot> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#lower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#lower> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#lower> <http://www.w3.org/2000/01/rdf-schema#comment> "Adjusts a quantity down based on a beginning balance or inventory count." .
 <https://w3id.org/valueflows#lower> <http://www.w3.org/2000/01/rdf-schema#label> "lower" .
 <https://w3id.org/valueflows#lower> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#decrement> .
 <https://w3id.org/valueflows#lower> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
@@ -479,11 +479,11 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#mappableAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/valueflows#mappableAddress> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#comment> "In processes like repair or modification, the same resource will appear in the input." .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#label> "modify" .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#move> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#move> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#move> <http://www.w3.org/2000/01/rdf-schema#comment> "Change location and possibly identifier, if location is part of the identification, of a resource with no change of agent rights or possession." .
 <https://w3id.org/valueflows#move> <http://www.w3.org/2000/01/rdf-schema#label> "move" .
 <https://w3id.org/valueflows#move> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -510,11 +510,11 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#outputOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Process> .
 <https://w3id.org/valueflows#outputOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#pass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#pass> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#pass> <http://www.w3.org/2000/01/rdf-schema#comment> "Possible output of a testing or reviewing process, indicating the resource passed, the same resource will appear in the input." .
 <https://w3id.org/valueflows#pass> <http://www.w3.org/2000/01/rdf-schema#label> "pass" .
 <https://w3id.org/valueflows#pass> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#pickup> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#pickup> <http://www.w3.org/2000/01/rdf-schema#comment> "Transported resource or person enters the process; the same resource will appear in the output." .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/2000/01/rdf-schema#label> "pickup" .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#plannedWithin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -542,7 +542,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ProcessSpecification> .
 <https://w3id.org/valueflows#processConformsTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#comment> "New resource was created in that process or an existing stock resource was added to." .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#label> "produce" .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
@@ -577,7 +577,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#publishes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Intent> .
 <https://w3id.org/valueflows#publishes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#raise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#raise> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#raise> <http://www.w3.org/2000/01/rdf-schema#comment> "Adjusts a quantity up based on a beginning balance or inventory count." .
 <https://w3id.org/valueflows#raise> <http://www.w3.org/2000/01/rdf-schema#label> "raise" .
 <https://w3id.org/valueflows#raise> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/valueflows#increment> .
 <https://w3id.org/valueflows#raise> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
@@ -714,15 +714,15 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/2000/01/rdf-schema#comment> "Give full (in the human realm) rights and responsibilities to another agent, without transferring physical custody." .
 <https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/2000/01/rdf-schema#label> "transfer-all-rights" .
 <https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/2000/01/rdf-schema#comment> "Give full rights and responsibilities plus physical custody." .
 <https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/2000/01/rdf-schema#label> "transfer-complete" .
 <https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/2000/01/rdf-schema#comment> "Give physical custody and control of a resource, without full accounting or ownership rights." .
 <https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/2000/01/rdf-schema#label> "transfer-custody" .
 <https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#triggeredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -754,11 +754,11 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#uri> <http://www.w3.org/2000/01/rdf-schema#label> "uri" .
 <https://w3id.org/valueflows#uri> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#use> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#use> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#use> <http://www.w3.org/2000/01/rdf-schema#comment> "For example a tool used in process; after the process, the tool still exists." .
 <https://w3id.org/valueflows#use> <http://www.w3.org/2000/01/rdf-schema#label> "use" .
 <https://w3id.org/valueflows#use> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#work> <http://www.w3.org/2000/01/rdf-schema#comment> " ." .
+<https://w3id.org/valueflows#work> <http://www.w3.org/2000/01/rdf-schema#comment> "Labor power applied to a process." .
 <https://w3id.org/valueflows#work> <http://www.w3.org/2000/01/rdf-schema#label> "work" .
 <https://w3id.org/valueflows#work> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows/> <http://purl.org/dc/terms/status> <http://purl.org/adms/status/UnderDevelopment> .
