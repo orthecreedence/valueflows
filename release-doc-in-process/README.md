@@ -1,4 +1,4 @@
-![Value Flows icon](https://rawgit.com/valueflows/valueflows/master/release-doc-in-process/VF-logo-heading.jpg)
+![Value Flows icon](./VF-logo-heading.jpg)
 # A vocabulary for distributed economic systems
 
 ## Table of Contents
