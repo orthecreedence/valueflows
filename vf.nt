@@ -249,11 +249,11 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#ProposedTo> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ProposedTo" .
 <https://w3id.org/valueflows#ProposedTo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "The linkage between a process recipe, an action that structures a recipe, and a resource specification." .
+<https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "The specification of a resource inflow to, or outflow from, a recipe process.." .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeFlow" .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the process part of a recipe for use in planning from recipe." .
+<https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a process in a recipe for use in planning from recipe." .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeProcess" .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#RecipeResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -678,7 +678,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/
 <https://w3id.org/valueflows#settles> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Claim> .
 <https://w3id.org/valueflows#settles> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#comment> "The last stage the desired economic resource went through." .
+<https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#comment> "References the ProcessSpecification of the last process the desired economic resource went through. Stage is used when the last process is important for finding proper resources, such as where the publishing process wants only documents that have gone through the editing process." .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#domain> _:b89 .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#label> "stage" .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ProcessSpecification> .
