@@ -2,20 +2,6 @@ _:b0 <http://www.w3.org/2002/07/owl#unionOf> _:b1 .
 _:b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicEvent> .
 _:b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b2 .
 _:b10 <http://www.w3.org/2002/07/owl#unionOf> _:b11 .
-_:b100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicResource> .
-_:b100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:b101 <http://www.w3.org/2002/07/owl#unionOf> _:b102 .
-_:b102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Commitment> .
-_:b102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b103 .
-_:b103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#RecipeFlow> .
-_:b103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b104 .
-_:b104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicResource> .
-_:b104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:b105 <http://www.w3.org/2002/07/owl#unionOf> _:b106 .
-_:b106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Scenario> .
-_:b106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b107 .
-_:b107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Plan> .
-_:b107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#EconomicEvent> .
 _:b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b12 .
 _:b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Commitment> .
@@ -189,10 +175,10 @@ _:b95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b96 .
 _:b96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#RecipeResource> .
 _:b96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:b97 <http://www.w3.org/2002/07/owl#unionOf> _:b98 .
-_:b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Commitment> .
+_:b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Scenario> .
 _:b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b99 .
-_:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#RecipeFlow> .
-_:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
+_:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Plan> .
+_:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://w3id.org/valueflows#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Action> <http://www.w3.org/2000/01/rdf-schema#comment> "An action verb defining the kind of event, commitment, or intent." .
 <https://w3id.org/valueflows#Action> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Action" .
@@ -646,7 +632,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#reciprocal> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This scenario or plan refines another scenario, often as time moves closer or for more detail." .
-<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:b105 .
+<https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:b97 .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#label> "refinement of" .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Scenario> .
 <https://w3id.org/valueflows#refinementOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
@@ -705,14 +691,14 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#settles> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Claim> .
 <https://w3id.org/valueflows#settles> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#comment> "References the ProcessSpecification of the last process the desired economic resource went through. Stage is used when the last process is important for finding proper resources, such as where the publishing process wants only documents that have gone through the editing process." .
-<https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#domain> _:b97 .
+<https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#comment> "References the ProcessSpecification of the last process the economic resource went through. Stage is used when the last process is important for finding proper resources, such as where the publishing process wants only documents that have gone through the editing process." .
+<https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#label> "stage" .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ProcessSpecification> .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#comment> "The state of the desired economic resource (pass or fail), after coming out of a test or review process." .
-<https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#domain> _:b101 .
+<https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
 <https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#label> "state" .
 <https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#state> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
