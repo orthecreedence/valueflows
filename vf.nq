@@ -206,7 +206,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2000/01/rdf-schema#comment> "A relationship role defining the kind of association one agent can have with another." .
 <https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2000/01/rdf-schema#label> "vf:AgentRelationshipRole" .
-<https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#Agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Agreement> <http://www.w3.org/2000/01/rdf-schema#comment> "Any type of agreement among economic agents." .
@@ -477,12 +476,12 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2000/01/rdf-schema#label> "input of" .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Process> .
 <https://w3id.org/valueflows#inputOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<https://w3id.org/valueflows#inverseLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/valueflows#inverseLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "The human readable name of the role, inverse from the object to the subject." .
-<https://w3id.org/valueflows#inverseLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#AgentRelationshipRole> .
-<https://w3id.org/valueflows#inverseLabel> <http://www.w3.org/2000/01/rdf-schema#label> "inverse label" .
-<https://w3id.org/valueflows#inverseLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#label> .
-<https://w3id.org/valueflows#inverseLabel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#inverseRoleLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/valueflows#inverseRoleLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "The human readable name of the role, inverse from the object to the subject. For example, 'has member'." .
+<https://w3id.org/valueflows#inverseRoleLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#AgentRelationshipRole> .
+<https://w3id.org/valueflows#inverseRoleLabel> <http://www.w3.org/2000/01/rdf-schema#label> "inverse role label" .
+<https://w3id.org/valueflows#inverseRoleLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/valueflows#inverseRoleLabel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#lot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#comment> "Lot or batch of an economic resource, used to track forward or backwards to all occurrences of resources of that lot." .
 <https://w3id.org/valueflows#lot> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
@@ -681,6 +680,12 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "resource quantity" .
 <https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
 <https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#roleLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/valueflows#roleLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "The human readable name of the role, inverse from the object to the subject. For example, 'is member of'." .
+<https://w3id.org/valueflows#roleLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#AgentRelationshipRole> .
+<https://w3id.org/valueflows#roleLabel> <http://www.w3.org/2000/01/rdf-schema#label> "role label" .
+<https://w3id.org/valueflows#roleLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/valueflows#roleLabel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#satisfiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#satisfiedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A commitment or economic event fully or partially satisfying an intent" .
 <https://w3id.org/valueflows#satisfiedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Satisfaction> .
