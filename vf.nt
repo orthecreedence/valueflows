@@ -337,6 +337,7 @@ _:b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b99 .
 _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/valueflows#Plan> .
 _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#domain> _:b95 .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/dtype#numericUnion> .
 <http://www.w3.org/2003/01/geo/wgs84_pos#alt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
@@ -462,7 +463,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#accountingQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The current amount and unit of the economic resource for which the agent has primary rights and responsibilities, sometimes thought of as ownership. This can be either stored or derived from economic events affecting the resource." .
 <https://w3id.org/valueflows#accountingQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
 <https://w3id.org/valueflows#accountingQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "accounting quantity" .
-<https://w3id.org/valueflows#accountingQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/valueflows#accountingQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
 <https://w3id.org/valueflows#accountingQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#action> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the kind of flow, such as consume, produce, work, transfer, etc." .
@@ -498,7 +499,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The quantity of the offered resource currently available." .
 <https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Intent> .
 <https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "available quantity" .
-<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
 <https://w3id.org/valueflows#availableQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#basedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The definition or standard specification for a process." .
@@ -593,7 +594,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#effortQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount and unit of the work or use or citation effort-based action. This is often a time duration, but also could be cycle counts or other measures of effort or usefulness." .
 <https://w3id.org/valueflows#effortQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> _:b86 .
 <https://w3id.org/valueflows#effortQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "effort quantity" .
-<https://w3id.org/valueflows#effortQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/valueflows#effortQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
 <https://w3id.org/valueflows#effortQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Location or area where the proposal is valid." .
@@ -762,7 +763,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#onhandQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The current amount and unit of the economic resource which is under direct control of the agent.  It may be more or less than the accounting quantity. This can be either stored or derived from economic events affecting the resource." .
 <https://w3id.org/valueflows#onhandQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
 <https://w3id.org/valueflows#onhandQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "onhand quantity" .
-<https://w3id.org/valueflows#onhandQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/valueflows#onhandQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
 <https://w3id.org/valueflows#onhandQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#InputOutput> .
@@ -943,7 +944,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount and unit of the economic resource counted or inventoried." .
 <https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> _:b77 .
 <https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "resource quantity" .
-<https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
 <https://w3id.org/valueflows#resourceQuantity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#roleLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#roleLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "The human readable name of the role, inverse from the object to the subject. For example, 'is member of'." .
@@ -1051,13 +1052,13 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#unitOfEffort> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit used for use or work or sometimes cite actions." .
 <https://w3id.org/valueflows#unitOfEffort> <http://www.w3.org/2000/01/rdf-schema#domain> _:b162 .
 <https://w3id.org/valueflows#unitOfEffort> <http://www.w3.org/2000/01/rdf-schema#label> "unit of effort" .
-<https://w3id.org/valueflows#unitOfEffort> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/unit> .
+<https://w3id.org/valueflows#unitOfEffort> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> .
 <https://w3id.org/valueflows#unitOfEffort> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit used for this resource in the recipe." .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#RecipeResource> .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2000/01/rdf-schema#label> "unit of resource" .
-<https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/unit> .
+<https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> .
 <https://w3id.org/valueflows#unitOfResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#uri> <http://www.w3.org/2000/01/rdf-schema#comment> "The web address relevant to the entity." .
