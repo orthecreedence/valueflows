@@ -750,7 +750,8 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#noEffect> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#notApplicable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#notApplicable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#InputOutput> .
-<https://w3id.org/valueflows#notApplicable> <http://www.w3.org/2000/01/rdf-schema#comment> "This kind of flow is not related to a process." .
+<https://w3id.org/valueflows#notApplicable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#PairsWith> .
+<https://w3id.org/valueflows#notApplicable> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is not applicable to this kind of flow." .
 <https://w3id.org/valueflows#notApplicable> <http://www.w3.org/2000/01/rdf-schema#label> "not applicable" .
 <https://w3id.org/valueflows#notApplicable> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
