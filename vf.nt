@@ -1013,6 +1013,14 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "tracking identifier" .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/valueflows#trackingIdentifier> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#transfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/valueflows#transfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#transfer> <http://www.w3.org/2000/01/rdf-schema#comment> "Give full rights and responsibilities plus physical custody." .
+<https://w3id.org/valueflows#transfer> <http://www.w3.org/2000/01/rdf-schema#label> "transfer" .
+<https://w3id.org/valueflows#transfer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#transfer> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#notApplicable> .
+<https://w3id.org/valueflows#transfer> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
+<https://w3id.org/valueflows#transfer> <https://w3id.org/valueflows#resourceEffect> <https://w3id.org/valueflows#decrementIncrement> .
 <https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#transfer-all-rights> <http://www.w3.org/2000/01/rdf-schema#comment> "Give full (in the human realm) rights and responsibilities to another agent, without transferring physical custody." .
@@ -1021,14 +1029,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#transfer-all-rights> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#notApplicable> .
 <https://w3id.org/valueflows#transfer-all-rights> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
 <https://w3id.org/valueflows#transfer-all-rights> <https://w3id.org/valueflows#resourceEffect> <https://w3id.org/valueflows#decrementIncrement> .
-<https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/2000/01/rdf-schema#comment> "Give full rights and responsibilities plus physical custody." .
-<https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/2000/01/rdf-schema#label> "transfer-complete" .
-<https://w3id.org/valueflows#transfer-complete> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#transfer-complete> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#notApplicable> .
-<https://w3id.org/valueflows#transfer-complete> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
-<https://w3id.org/valueflows#transfer-complete> <https://w3id.org/valueflows#resourceEffect> <https://w3id.org/valueflows#decrementIncrement> .
 <https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#transfer-custody> <http://www.w3.org/2000/01/rdf-schema#comment> "Give physical custody and control of a resource, without full accounting or ownership rights." .
