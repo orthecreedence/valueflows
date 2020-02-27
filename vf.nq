@@ -602,14 +602,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#label> "eligible location" .
 <https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 <https://w3id.org/valueflows#eligibleLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#fail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/valueflows#fail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#fail> <http://www.w3.org/2000/01/rdf-schema#comment> "Possible output of a testing or reviewing process, indicating the resource failed, the same resource will appear in the input." .
-<https://w3id.org/valueflows#fail> <http://www.w3.org/2000/01/rdf-schema#label> "fail" .
-<https://w3id.org/valueflows#fail> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#fail> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#output> .
-<https://w3id.org/valueflows#fail> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#accept> .
-<https://w3id.org/valueflows#fail> <https://w3id.org/valueflows#resourceEffect> <https://w3id.org/valueflows#noEffect> .
 <https://w3id.org/valueflows#finished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/valueflows#finished> <http://www.w3.org/2000/01/rdf-schema#comment> "The commitment or intent or process is complete or not.  This is irrespective of if the original goal has been met, and indicates that no more will be done." .
 <https://w3id.org/valueflows#finished> <http://www.w3.org/2000/01/rdf-schema#domain> _:b157 .
@@ -783,14 +775,6 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#pairsWith> <http://www.w3.org/2000/01/rdf-schema#label> "pairs with" .
 <https://w3id.org/valueflows#pairsWith> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#pairsWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#pass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/valueflows#pass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
-<https://w3id.org/valueflows#pass> <http://www.w3.org/2000/01/rdf-schema#comment> "Possible output of a testing or reviewing process, indicating the resource passed, the same resource will appear in the input." .
-<https://w3id.org/valueflows#pass> <http://www.w3.org/2000/01/rdf-schema#label> "pass" .
-<https://w3id.org/valueflows#pass> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<https://w3id.org/valueflows#pass> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#output> .
-<https://w3id.org/valueflows#pass> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#accept> .
-<https://w3id.org/valueflows#pass> <https://w3id.org/valueflows#resourceEffect> <https://w3id.org/valueflows#noEffect> .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/2000/01/rdf-schema#comment> "Transported resource or person enters the process; the same resource will appear in the output." .
@@ -990,10 +974,10 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#ProcessSpecification> .
 <https://w3id.org/valueflows#stage> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#comment> "The state of the desired economic resource (pass or fail), after coming out of a test or review process." .
+<https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#comment> "The state of the desired economic resource, after coming out of a test or review process." .
 <https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#EconomicResource> .
 <https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#label> "state" .
-<https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#state> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/valueflows#state> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#subject> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject of a relationship between 2 agents.  For example, if Mary is a member of a group, then Mary is the subject." .
