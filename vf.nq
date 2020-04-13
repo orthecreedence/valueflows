@@ -391,6 +391,10 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2000/01/rdf-schema#comment> "A proposed or planned or estimated economic flow, prior to a commitment or agreement, which can lead to commitments and/or economic events." .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Intent" .
 <https://w3id.org/valueflows#Intent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#PairsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/valueflows#PairsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "The action that should be included on the other direction of the process, for example accept with modify; also includes not applicable." .
+<https://w3id.org/valueflows#PairsWith> <http://www.w3.org/2000/01/rdf-schema#label> "vf:PairsWith" .
+<https://w3id.org/valueflows#PairsWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Plan> <http://www.w3.org/2000/01/rdf-schema#comment> "A logical collection of processes that constitute a body of scheduled work with defined deliverable(s)." .
 <https://w3id.org/valueflows#Plan> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Plan" .
@@ -453,6 +457,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#Settlement> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#accept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#PairsWith> .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/2000/01/rdf-schema#comment> "In processes like repair or modification or testing, the same resource will appear in the output." .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/2000/01/rdf-schema#label> "accept" .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
@@ -579,6 +584,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#deliver-service> <https://w3id.org/valueflows#resourceEffect> <https://w3id.org/valueflows#noEffect> .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#dropoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#PairsWith> .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/2000/01/rdf-schema#comment> "Transported resource or person leaves the process; the same resource or person appeared in the input." .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/2000/01/rdf-schema#label> "dropoff" .
 <https://w3id.org/valueflows#dropoff> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
@@ -709,6 +715,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#mappableAddress> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#modify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#PairsWith> .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#comment> "In processes like repair or modification, the same resource will appear in the input." .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#label> "modify" .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
@@ -777,6 +784,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#pairsWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
+<https://w3id.org/valueflows#pickup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#PairsWith> .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/2000/01/rdf-schema#comment> "Transported resource or person enters the process; the same resource will appear in the output." .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/2000/01/rdf-schema#label> "pickup" .
 <https://w3id.org/valueflows#pickup> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
